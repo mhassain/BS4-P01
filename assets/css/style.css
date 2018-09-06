@@ -1,0 +1,37 @@
+html,body
+{
+    height: 100%;
+}
+.sharp-corner{border-radius:0;}
+
+/* cover image */
+#cover
+{
+    background-image: url(../image/city.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption
+{
+    width:100%;
+}
+
+/* About section */
+
+#about
+{
+    background: url(../image/business_01.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.about-text
+{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    margin-top: 10rem;
+}
